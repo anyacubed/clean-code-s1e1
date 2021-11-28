@@ -98,11 +98,11 @@ var editTask=function(){
         //label becomes the inputs value.
         label.innerText=editInput.value;
         label.className = "task";
-        editInput.className = "task task-input list-task-input"
+        editInput.className = "task task-input list-task-input";
         editBtn.innerText="Edit";
     }else{
         label.className = "task edit-mode-label";
-        editInput.className = "task task-input list-task-input edit-mode-task-input"
+        editInput.className = "task task-input list-task-input edit-mode-task-input";
         editInput.value=label.innerText;
         editBtn.innerText="Save";
     }
