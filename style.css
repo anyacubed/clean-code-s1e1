@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.adding-tasks__wrapper {
+.add-tasks__wrapper {
   display: flex;
 }
 
@@ -102,7 +102,7 @@ h3 {
 }
 
 /* New Task */
-.adding-tasks__label {
+.add-tasks__label {
   display: block;
   margin: 0 0 20px;
 }
